@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans:200,400');
+/*font-family: 'Nunito', Helvetica, sans-serif;
+font-family: 'Nunito Sans', Helvetica, sans-serif;*/
+
+html {
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
+}
+
+header.main_header {
+    padding: 1% 0;
+    display: block;
+    height: 100vh;
+}
+
+.main_content {
+    padding-top: 3%;
+}
+
+.content {
+    margin-top: 12%;
+}
+
+.logo {
+    padding: 1%;
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .3em;
+    color: rgb(255,255,240);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255,255,240);
+}
+
+.hero {
+    padding: 2% 0;
+}
+
+.text-left {
+    padding-left: 5%;
+    text-align: right;
+}
+
+.text-left h3 {
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.text-left h3,h4 {
+    font-size: 1em;
+    padding-bottom: .3em;
+}
+
+.text-left p {
+    font-weight: lighter;
+}
+
+.text-right {
+    padding-right: 5%;
+    text-align: left;
+}
+
+.text-right h3 {
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.text-right h3,h4 {
+    font-size: 1em;
+    padding-bottom: .3em;
+}
+
+.text-right p {
+    font-weight: lighter;
+}
+
+.title1 {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    font-size: 6em;
+    font-weight: bolder;
+    color: rgb(242,101,34);
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+
+.title2 {
+    position: absolute;
+    top: 780px;
+    left: 50px;
+    font-size: 6em;
+    font-weight: bolder;
+    color: rgb(242,101,34);
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+
+.title3 {
+    position: absolute;
+    top: 1430px;
+    right: 50px;
+    font-size: 6em;
+    font-weight: bolder;
+    color: rgb(242,101,34);
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: .7em;
+    letter-spacing: .2em;
+    line-height: 1em;
+    padding: 1%;
+    color: rgb(255,255,240);
+}
+
+.sub-footer {
+    height: 50vh;
+    text-align: center;
+    margin-top: 12%;
+    padding: 1% 0;
+    font-family: 'Nunito', Helvetica, sans-serif;
+    color: rgb(255,255,240);
+}
+
+.sub-h2 {
+    font-size: 2em;
+    letter-spacing: .3em;
+    padding: 4% 0;
+}
+
+.sub-p {
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    letter-spacing: .1em;
+    padding: 2% 0;
+    line-height: 1.5em;
+}
+
+.orange {
+    background-color: rgb(242,101,34);
+}
+
+.light-blue {
+    background-color: rgb(0,114,188); 
+}
+
+.dark-blue {
+    background-color: rgb(16,52,75);
+}
+
+/*Grid -------------------------------------------------------*/
+.container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+.row {
+    padding: 2% 0;
+}
+
+.columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.full-width .columns {
+    width: 100%;
+    margin-left: 0;
+}
+
+.half {
+    width: 48%;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*End of Grid -----------------------------------------------*/
+
+h1 {
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-size: 16em;
+    text-align: center;
+    color: rgb(255,255,240);
+}
+
+.hero h2 {
+    font-family: 'Nunito', Helvetica, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: .3em;
+    word-spacing: .1em; 
+    text-align: center;
+    padding: 4% 0;
+    color: rgb(255,255,240);
+}
