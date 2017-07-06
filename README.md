@@ -24,8 +24,9 @@
     </header> <!--header ends here  -->
 ```
 
-```
+
 ### CSS
+```
     .container {
     position: relative;
     width: 100%;
