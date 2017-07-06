@@ -68,6 +68,7 @@ need to change the position of the main section title.
 
 Future Improvement:
 Will work on with responsive with different screen sizes.
-will fixed the position of main section title's.
+Will fixed the position of main section title's.
+Will add javascript soon.
 
 ### Author: Mark Delos Reyes
