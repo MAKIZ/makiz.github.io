@@ -117,6 +117,10 @@
   color: white;
 }
 
+.thumbnail-wrapper:hover {
+  opacity: 1;
+}
+
 .thumbnail-wrapper:hover .image {
   opacity: 1;
 }
