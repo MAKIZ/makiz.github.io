@@ -115,10 +115,7 @@
   height: 100%;
   top: 30%;
   color: white;
-}
-
-.thumbnail-wrapper:hover {
-  opacity: 1;
+  pointer-events: none;
 }
 
 .thumbnail-wrapper:hover .image {
