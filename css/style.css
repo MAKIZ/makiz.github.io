@@ -119,6 +119,17 @@
   background: rgba(0,0,0,.8);
 }
 
+.fa-behance {
+  background: rgba(0,0,0,.5);
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+
+.fa-behance:hover {
+  background: rgba(0,0,0,.8);
+}
+
 .title {
   position: absolute;
   display: flex;
