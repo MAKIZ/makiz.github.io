@@ -131,7 +131,7 @@
 
 .link-icon i:hover {
   background-color: rgba(0, 0, 0, 0.9);
-  transition: 0.5s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 .title {
@@ -142,6 +142,7 @@
   height: 70%;
   top: 30%;
   color: white;
+  letter-spacing: .1rem;
   pointer-events: none;
 }
 
@@ -151,7 +152,8 @@
 
 .thumbnail-wrapper:hover .title {
   opacity: 0;
-  transition: 0.5s ease;
+  text-decoration: underline;
+  transition: .50s ease-in-out;
 }
 
 .thumbnail-wrapper:hover .link {
