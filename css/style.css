@@ -91,7 +91,7 @@
 
 .about-wrapper a:hover {
   background-color: black;
-  color: white;
+  color: white !important;
   transition: 0.25s ease-in-out;
 }
 
