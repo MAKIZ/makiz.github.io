@@ -14,6 +14,10 @@ function openModal() {
 }
 
 function touchstart(e) {
+    modal.style.display = 'block';
+    modal.style.transition = "height 5s linear 0s";
+    modal.style.height = "100%";
+
     e.preventDefault();
     return false;
 }
