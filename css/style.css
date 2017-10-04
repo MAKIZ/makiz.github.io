@@ -105,6 +105,20 @@
   cursor: pointer;
 }
 
+.lets-talk a {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.lets-talk a:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.25s ease-in-out;
+}
+
 /* hover effect thumbnail images*/
 .thumbnail-wrapper {
   position: relative;
