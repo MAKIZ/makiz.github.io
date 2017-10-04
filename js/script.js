@@ -3,7 +3,7 @@ let modalBtn = document.querySelector('#modalBtn');
 let closeBtn = document.querySelector('.close-btn');
 
 modalBtn.addEventListener('click', openModal);
-modalBtn.addEventListener('touchstart', touchstart, true);
+modalBtn.addEventListener('touchstart', touchstart);
 
 closeBtn.addEventListener('click', closeModal);
 
