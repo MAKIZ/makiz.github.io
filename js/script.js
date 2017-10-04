@@ -2,7 +2,7 @@ let modal = document.querySelector('.mymodal');
 let modalBtn = document.querySelector('#modalBtn');
 let closeBtn = document.querySelector('.close-btn');
 
-modalBtn.addEventListener('click touchstart', openModal);
+modalBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 
 function openModal() {

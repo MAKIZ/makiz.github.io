@@ -81,8 +81,7 @@
   margin-bottom: 40%;
 }
 
-.btn {
-  background-color: transparent;
+.about-wrapper a {
   padding: 4px 10px;
   border-radius: 20px;
   font-size: .7rem;
@@ -90,11 +89,9 @@
   transition: 0.25s ease;
 }
 
-.btn:hover {
+.about-wrapper a:hover {
   background-color: black;
-  color: white;
-  border: 1px solid white;
-  cursor: pointer;
+  color: white !important;
   transition: 0.25s ease-in-out;
 }
 
