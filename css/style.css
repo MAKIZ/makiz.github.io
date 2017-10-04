@@ -30,7 +30,6 @@
   font-weight: bolder;
   font-size: 3.5rem;
   letter-spacing: 0.2rem;
-  cursor: pointer;
 }
 
 .skills {
@@ -48,7 +47,6 @@
 .social-icon {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
-  padding-bottom: 50%;
 }
 
 .social-icon i {
@@ -79,6 +77,21 @@
   transition: 0.25s ease;
 }
 
+.about {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: .7rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.about:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: 0.25s ease-in-out;
+}
+
 .mymodal {
   display: none;
   position: fixed;
@@ -93,6 +106,21 @@
   margin: 20% 10%;
   padding: 1rem;
   border: none;
+  -webkit-animation-name: from-top;
+  -webkit-animation-duration: 0.4s;
+  animation-name: from-top;
+  animation-duration: 0.4s;
+}
+
+/* Animation */
+@-webkit-keyframes from-top {
+  from {top:-400px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes from-top {
+  from {top:-400px; opacity:0}
+  to {top:0; opacity:1}
 }
 
 .modal-content i {
