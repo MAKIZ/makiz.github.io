@@ -2,10 +2,10 @@ let modal = document.querySelector('.mymodal');
 let modalBtn = document.querySelector('#modalBtn');
 let closeBtn = document.querySelector('.close-btn');
 
-modalBtn.addEventListener('click', openModal, false);
-modalBtn.addEventListener('touchend', touchend, false);
+modalBtn.addEventListener('click', openModal);
+modalBtn.addEventListener('touchend', touchend);
 
-closeBtn.addEventListener('click', closeModal, false);
+closeBtn.addEventListener('click', closeModal);
 
 function openModal() {
     modal.style.display = 'block';
