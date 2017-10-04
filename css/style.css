@@ -81,7 +81,8 @@
   margin-bottom: 40%;
 }
 
-.about {
+.btn {
+  background-color: transparent;
   padding: 4px 10px;
   border-radius: 20px;
   font-size: .7rem;
@@ -89,7 +90,7 @@
   transition: 0.25s ease;
 }
 
-.about:hover {
+.btn:hover {
   background-color: black;
   color: white;
   border: 1px solid white;
