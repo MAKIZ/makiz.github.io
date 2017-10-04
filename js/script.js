@@ -3,7 +3,7 @@ let modalBtn = document.querySelector('#modalBtn');
 let closeBtn = document.querySelector('.close-btn');
 
 modalBtn.addEventListener('click', openModal);
-modalBtn.addEventListener('touchend', touchend, true);
+modalBtn.addEventListener('touchstart', touchstart, true);
 
 closeBtn.addEventListener('click', closeModal);
 
@@ -13,11 +13,8 @@ function openModal() {
     modal.style.height = "100%";
 }
 
-function touchend(e) {
+function touchstart(e) {
     e.preventDefault();
-    modal.style.display = 'block';
-    modal.style.transition = "height 5s linear 0s";
-    modal.style.height = "100%";
     return false;
 }
 
