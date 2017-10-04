@@ -77,6 +77,10 @@
   transition: 0.25s ease;
 }
 
+.about-wrapper {
+  margin-bottom: 40%;
+}
+
 .about {
   padding: 4px 10px;
   border-radius: 20px;
