@@ -79,6 +79,7 @@
 
 .about-wrapper {
   margin-bottom: 40%;
+  z-index: 1;
 }
 
 .about-wrapper a {
